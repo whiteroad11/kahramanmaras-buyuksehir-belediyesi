@@ -1,10 +1,10 @@
 .footer {
-  background-color: #343a40; 
+  background-color: #29363d; 
   color: white;
 }
 
 .footer-link {
-  color: #ccc;
+  color: white;
   text-decoration: none;
 }
 
@@ -23,3 +23,37 @@
   text-decoration: none;   
   cursor: pointer;         
   }
+
+  footer {
+    margin-top: 0 !important;
+}
+
+   .e-belediye-item {
+            transition: background-color 0.3s;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+        }
+        .e-belediye-item:hover {
+            background-color: #f8f9fa;
+        }
+        .e-belediye-icon {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+
+      
+
+        .navbar-dark .nav-link:hover{
+          color:darkgrey;
+          font-size: 15px;
+        }
+
+.navbar-dark .nav-link {
+  color: #ffffff !important;
+   transition: all 0.3s ease;
+}
+
+
+        
